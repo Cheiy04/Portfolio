@@ -1,0 +1,128 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 100px;
+}
+.about-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.about-title img{
+    width: 80px;
+    
+}
+.about-sections{
+    display: flex;
+    justify-content: center;
+    margin: 40px 10px;
+    gap: 250px;
+
+}
+.about-left{
+    display: flex;
+    align-items:flex-start;
+    margin-top: 50px;
+}
+.about-left img{
+    width: 190px;
+    height: 190px;
+    border: 2px solid rgb(7, 3, 131);
+    border-radius: 50% ;
+}
+.about-left img:hover{
+    transition: 0.4s;
+    transform: scale(1.3);
+}
+.about-right{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.about-para{
+    display: flex;
+    flex-direction: column ;
+    text-align:justify;
+    font-size: 24px;
+    gap: 15px;
+}
+.about-para h6{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 10px;
+}
+.about-acheivements{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    
+}
+
+.acheivement_1 h2{
+    text-align: center;
+    font-size: 29px;
+    margin-bottom: 30px;    
+    font-weight: 800;
+    background: linear-gradient(#3824e9 52%, #aeacac 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.acheivement_1 p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.acheivement_1 img{
+    width: 300px;
+    border-radius: 20px;
+}
+.acheivement_2 h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    background: linear-gradient(#3824e9 52%, #aeacac 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.acheivement_2 p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.acheivement_2 img{
+    width: 350px;
+    border-radius:  20px;
+}
+.about-skills:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.acheivement_2 img:hover{
+    transform: scale(1.2);
+    transition: 0.3s;    
+}
+.acheivement_1 img:hover{
+    transform: scale(1.15);
+    transition: 0.3s;    
+}
