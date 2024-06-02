@@ -46,7 +46,7 @@ const About = () => {
                 <p>Completion of the ALX Africa Software Engineering Programme.</p>
                 <img src={certification} alt="" />
             </div>
-            <hr />
+            
             <div className="acheivement_2">
                 <h2>Projects</h2>
                 <p>Completed a couple of web applications including a Recipe-finder Application. More projects can be found on my <a href="https://github.com/Cheiy04">GitHub</a></p>

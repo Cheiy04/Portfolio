@@ -126,3 +126,65 @@
     transform: scale(1.15);
     transition: 0.3s;    
 }
+
+@media(max-width:768px){
+    .about{
+        gap: 80px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+    .about-title h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .about-sections{
+        flex-direction: column;
+    }
+    .about-left{
+        display: none;
+    }
+    .about-para{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .about-skill{
+        gap: 20px;
+        align-items: center;
+
+    }
+    .about-skill p{
+        font-size: 20px;     
+    }
+    .about-acheivements{
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+      
+    }
+    .acheivement_1{
+        gap: 20px;
+        width: 80%;
+        align-items: center;
+    }
+    .acheivement_1 p{
+        text-align: center;
+        font-size: 17px;
+    }
+    .acheivement_2{
+        gap: 20px;
+        width: 80%;
+        align-items: center;
+    }
+    .acheivement_2 p{
+        text-align: center;
+        font-size: 17px;
+    }
+    .acheivement_1 img:hover{
+        transform: none;
+        transition: none;
+    }
+    .acheivement_2 img:hover{
+        transform: none;
+    }
+}
